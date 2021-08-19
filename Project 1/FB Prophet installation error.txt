@@ -1,0 +1,27 @@
+
+Removeerror: ‘setuptools’ is a dependency of CONDA
+
+At the wrong when update jupyterlab
+RemoveError: 'setuptools' is a dependency of conda and always be removed from conda' s operating environment.
+Try the first method:
+PIP uninstall install setuptools
+and conda install setuptools , useless, still an error
+The second:
+conda update conda
+no, at the same error
+The third:
+conda update -- force conda
+success, no error.
+Conda install numpy, numpy, numpy, numpy, numpy, numpy, numpy. Looks like it worked out.
+
+
+
+I had faced same problem. I used "conda" rather than "pip" for installation with steps shown below and it worked magical for me.
+
+step 1: conda install -c anaconda ephem
+
+step 2:conda install -c conda-forge pystan
+
+step 3: conda install -c conda-forge fbprophet
+
+Now you can go ahead with : "from fbprophet import Prophet" in python environment.
