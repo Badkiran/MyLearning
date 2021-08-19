@@ -1,5 +1,5 @@
 tensorflow_cpu==2.4.0
-numpy==1.20.1
+numpy==1.19.2
 streamlit==0.86.0
 statsmodels==0.12.2
 matplotlib==3.3.4
