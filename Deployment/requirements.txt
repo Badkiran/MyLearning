@@ -1,4 +1,4 @@
-tensorflow_cpu==2.4.2
+tensorflow_cpu
 numpy==1.19.2
 streamlit==0.86.0
 statsmodels==0.12.2
@@ -6,4 +6,4 @@ matplotlib==3.3.4
 pandas==1.2.4
 Pillow==8.3.1
 scikit_learn==0.24.2
-tensorflow==2.5.0
+tensorflow
